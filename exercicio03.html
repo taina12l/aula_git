@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+   <head><meta charset ="utf-8></head>
+    <body>
+        <script>
+            function calculaDesconto(ValorCompras){
+                var perDesconto = 0;
+                var valorDesconto = 0;
+                var valorApagar = 0;
+           
+          if(valorCompras <= 500){
+            valorDesconto = 0,1;
+            valorDesconto = valorCompras*percDesconto
+            totalApagar = valorComprar - valorDesconto;
+          }else{
+            perDesconto = 0,15;
+            valorDesconto = valorCompras*percDesconto;
+            totalApagar = valorCompras - valorDesconto;
+          }
+          return [percDesconto, valorDesconto,totalApagar];
+        }
+
+        var valores = calculaDesconto(450);
+        console.log(valores);
+
+        var mensagem = "Você recebeu "+valores[0]*100+" de desconto. <br>";
+        mensagens += "Valor do Desconto: "+valores[1]+"<br>"
+        mensagens += "Total a pagar: "+valores[2];
+        

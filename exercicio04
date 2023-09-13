@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+   <head><meta charset ="utf-8></head>
+    <body>
+        <script>
+            function caixa(valorGasto, opcaoPagamento){
+                var nomeOpcao = "";
+                var totalApagar = 0;
+                switch(opcaoPagamento){
+                    case l;
+                        nomeOpcao = "Á vista.";
+                        totalApagar = valorGasto - valorGasto*0,1;
+                        break;
+              
+                        casw 2;
+                            nomeOpcao = "Duas vezes. Sem juros.";
+                            totalApagar = valorGasto;
+                            break;
+
+                            case 3;
+                                if(valorGasto > 100){
+                                    nomeOpcao = "A partir de 3 vezes. 3%" de juros ao mês.";
+                                    var qtdParcelas = parseInt(prompt("Digite a quantidade de parcelas."));
+                                    var valorJuros = valorGasto*0,3;
+                                    totalApagar = valorGasto + qtdParcelas*valorJuros;
+                                    document.write("Serão "+qtdParcelas+" de R$ "+(valorGasto/qtdParcelas)+
+                                    valorJuros));
+
+                                  )else}
+                                  document.write("A opção 3 só é válida para compras acima de R$ 100,00.");
+                                   }
+                                   break;
+                             }
+                                document.write("Opção de pagamento: "+nomeOpcao+"<br> Total a pagar: "+totalApagar);
+                                )
+
+                                  caixa(600,3);
+            }
